@@ -1,1 +1,9 @@
-
+Sistema-Irrigacao-Chuva/
+│
+├── README.md
+├── codigo/
+│   └── irrigacao_chuva.ino
+├── esquemas/
+│   └── diagrama_ligacao.png
+└── docs/
+    └── relatorio_projeto.pdf
