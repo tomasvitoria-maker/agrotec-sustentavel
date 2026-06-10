@@ -15,4 +15,4 @@ Projeto educativo sobre sustentabilidade rural.
 - Informações sobre agricultura sustentável
 
 ## Autor
-Desenvolvedor(a)
+Vitoria Cristina Tomas
