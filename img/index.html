@@ -1,2 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <h1>🌱 Agro Forte, Futuro Sustentável</h1>
+    <p>Produção e Meio Ambiente com Reutilização da Água da Chuva</p>
+</header>
+
+<section class="hero">
+    <h2>Irrigação Inteligente</h2>
+    <p>
+        Nosso projeto capta água da chuva para irrigar plantações,
+        reduzindo o desperdício de água potável e promovendo a sustentabilidade.
+    </p>
+</section>
+
+<section class="simulador">
+    <h2>💧 Simulador de Captação</h2>
+
+    <label>Quantidade de chuva (mm):</label>
+    <input type="range" id="chuva" min="0" max="100" value="20">
+    <span id="valorChuva">20</span> mm
+
+    <button onclick="captarAgua()">Captar Água</button>
+
+    <div class="tanque">
+        <div id="nivelAgua"></div>
+    </div>
+
+    <p id="resultado"></p>
+</section>
+
+<section class="beneficios">
+    <h2>🌿 Benefícios Ambientais</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Economia de Água</h3>
+            <p>Reduz o uso de água tratada na irrigação.</p>
+        </div>
+
+        <div class="card">
+            <h3>Produção Sustentável</h3>
+            <p>Garante recursos hídricos para o futuro.</p>
+        </div>
+
+        <div class="card">
+            <h3>Menor Impacto Ambiental</h3>
+            <p>Diminui a pressão sobre rios e reservatórios.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Projeto Agro Forte • Futuro Sustentável • 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
 
